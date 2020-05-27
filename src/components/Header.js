@@ -8,7 +8,7 @@ function Header() {
     return (
         <Layout>
         <div className="Header">
-            <img src={Logo} alt="logo UniAmérica" />
+            <img src={Logo} alt="logo UniAmerica" />
             <Menu />
         </div>
         </Layout>
