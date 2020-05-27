@@ -1,0 +1,11 @@
+.Menu {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 15px;
+}
