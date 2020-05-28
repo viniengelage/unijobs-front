@@ -3,7 +3,7 @@
     align-items: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 ul {
@@ -16,11 +16,15 @@ li {
 }
 
 #btn-menu {
-    padding: 15px 40px;
-    font-size: 25px ;
-    border-radius: 5px;
+    padding: 15px 45px;
+    border-radius: 10px;
     border: none;
-    font-weight: 600;
-    font-size: 25px;
-    color: #0E346A;   
+    font-weight: 500;
+    color: #0E346A;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#btn-menu:hover {
+    color: #65AD2F;    
 }
