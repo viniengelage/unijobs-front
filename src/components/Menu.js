@@ -6,9 +6,9 @@ function Menu() {
         <div className="Menu" >
             <ul>
                 <li>Categorias</li>
-                <li>Comece a Vender</li>
+                <li>Comece a vender</li>
             </ul>
-            <button type="button">Faça login</button>
+            <button type="button" id="btn-menu">Faça login</button>
         </div>
     );
 }
