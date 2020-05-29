@@ -5,14 +5,19 @@ import Header from '../components/Header';
 
 function PageNotFound(props){
     return (
-        <div>
-            <Header />
-            <div className="PageNotFound">
-                <img src={robo} alt="Robo" />
-                <h1>Error 404</h1>
-                <h2>Ohh no!!! Parece que a página que você estava procurando não foi encontrada.</h2>
+        <>
+            <div>
+                <div style={ {width: '100%', background: '#0E346A'}}>
+                    <Header style={{ color: '#fff' }}/>
+                </div>
+                <div className="PageNotFound">
+                    <img src={robo} alt="Robo" />
+                    <h1>Error 404</h1>
+                    <h2>Ohh no!!!</h2>
+                    <span>Parece que a página que você estava procurando não foi encontrada.</span>
+                </div>
+                {/* <Footer /> */}
             </div>
-            {/* <Footer /> */}
-        </div>
+        </>
     );
 } export default PageNotFound;

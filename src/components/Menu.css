@@ -1,11 +1,30 @@
 .Menu {
     display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 ul {
-    display: flex;
+    display: flex;    
 }
 
 li {
-    margin-right: 15px;
+    margin-right: 20px;
+    color: #fff
+}
+
+#btn-menu {
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    color: #0E346A;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#btn-menu:hover {
+    color: #65AD2F;    
 }
