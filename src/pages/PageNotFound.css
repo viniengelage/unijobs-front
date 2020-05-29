@@ -12,3 +12,23 @@ img {
 h1, h2 {
     margin-top: 1em;
 }
+
+.PageNotFound h1{
+    color: #86B300; 
+    background: #eee;
+    margin: 10px 0;
+    padding: 5px 20px;
+    font-size: 1.8em;
+}
+
+.PageNotFound  h2 {
+    color: #333;
+    font-size: 2.4em;
+    margin-top: 20px;
+}
+
+.PageNotFound span {
+    color: #333;
+    font-size: 1.4em;
+    line-height: 2.2em; 
+  }

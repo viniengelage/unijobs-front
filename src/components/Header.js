@@ -4,12 +4,12 @@ import './Header.css';
 import Logo from '../imgs/UniJobs.svg';
 import Layout from './Layout';
 
-function Header() {
+function Header({ style }, ...props) {
     return (
         <Layout>
         <div className="Header">
             <img src={Logo} alt="logo UniAmerica" />
-            <Menu />
+            <Menu style={style} />
         </div>
         </Layout>
     );
