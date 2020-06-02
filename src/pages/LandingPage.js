@@ -1,21 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
+import './LandingPage.css'
+import ProdutosRecentes from '../components/ProdutosRecentes';
 
 function LandingPage(props) {
     return (
-        <>
+        <div className="LandingPage">
             <Header />
-            <h1>Hello React World! LandingPage</h1>
-        </>
+            {/* Slider */}
+            <ProdutosRecentes />
+            {/* <ProdutosDestaque />
+            *** <Footer /> */}
+        </div>
     );
-
-    /** Lista Componentes React:
-            <Header /> (Logo e <Menu />)
-            Slider
-            ItensRecentes (ItemRecente)
-            ItensDestaque (ItemDestaque)
-            Footer
-    */
 }
 
 export default LandingPage;

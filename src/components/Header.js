@@ -4,7 +4,7 @@ import './Header.css';
 import Logo from '../imgs/UniJobs.svg';
 import Layout from './Layout';
 
-function Header({ style }, ...props) {
+function Header({ style }) {
     return (
         <Layout>
         <div className="Header">
