@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import './LandingPage.css'
 import ProdutosRecentes from '../components/ProdutosRecentes';
 
@@ -9,8 +10,8 @@ function LandingPage(props) {
             <Header />
             {/* Slider */}
             <ProdutosRecentes />
-            {/* <ProdutosDestaque />
-            *** <Footer /> */}
+            {/* <ProdutosDestaque />*/}
+            <Footer /> 
         </div>
     );
 }

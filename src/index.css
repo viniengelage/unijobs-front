@@ -12,8 +12,28 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 body {
   background-color: #fafafa;
+}
+
+#root {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 240px; /* altura do footer */
+ }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 code {
