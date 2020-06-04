@@ -7,7 +7,7 @@ function PageNotFound(props){
     return (
         <>
             <div style={ {width: '100%', background: '#0E346A'} }>
-            <Header style={{ color: '#fff' }}/>
+                <Header style={{ color: '#fff' }}/>
             </div>
             <div className="PageNotFound">
                 <img src={robo} alt="Robo" />

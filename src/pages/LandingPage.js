@@ -9,7 +9,8 @@ function LandingPage(props) {
             <Header />
             {/* Slider */}
             <ProdutosRecentes />
-            {/* <ProdutosDestaque />
+            {/* <Categorias />
+            *** <ProdutosDestaque />
             *** <Footer /> */}
         </div>
     );

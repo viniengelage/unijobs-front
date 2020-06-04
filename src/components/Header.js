@@ -7,10 +7,10 @@ import Layout from './Layout';
 function Header({ style }) {
     return (
         <Layout>
-        <div className="Header">
-            <img src={Logo} alt="logo UniAmerica" />
-            <Menu style={style} />
-        </div>
+            <div className="Header">
+                <img src={Logo} alt="logo UniAmerica" />
+                <Menu style={style} />
+            </div>
         </Layout>
     );
 }
