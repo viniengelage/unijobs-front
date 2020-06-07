@@ -1,18 +1,20 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './LandingPage.css'
 import ProdutosRecentes from '../components/ProdutosRecentes';
+
+import './LandingPage.css'
+import Layout from '../components/Layout';
 
 function LandingPage(props) {
     return (
-        <div className="LandingPage">
+        <>
             <Header />
             {/* Slider */}
             <ProdutosRecentes />
             {/* <ProdutosDestaque />*/}
             <Footer /> 
-        </div>
+        </>
     );
 }
 

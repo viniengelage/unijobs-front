@@ -1,12 +1,12 @@
 import React from 'react';
 import './Menu.css'
 
-function Menu({ style }) {
+function Menu() {
     return(
         <div className="Menu" >
             <ul >
-                <li style={style}>Categorias</li>
-                <li style={style}>Comece a vender</li>
+                <li>Categorias</li>
+                <li>Comece a vender</li>
             </ul>
             <button type="button" id="btn-menu">Faça login</button>
         </div>

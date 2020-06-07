@@ -1,11 +1,13 @@
 import React from 'react';
 import ProdutoRecente from './ProdutoRecente';
 import './ProdutosRecentes.css';
+import Layout from '../components/Layout'
 
 function ProdutosRecentes() {
     return (
         <section className="ProdutosRecentes">
-           <div className="produtos">
+            <Layout>
+            <div className="produtos">
                 <h1>Adicionados Recentemente</h1>
                 <span>Ver todos</span>
             </div>
@@ -33,6 +35,7 @@ function ProdutosRecentes() {
                 avaliacao="5"
                 imagem=""
             />
+            </Layout>
         </section>
         );
     }

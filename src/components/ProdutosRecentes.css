@@ -1,6 +1,4 @@
 .ProdutosRecentes {
-    display: flex;
-    flex-direction: column;
     background: #eee;
 }
 
