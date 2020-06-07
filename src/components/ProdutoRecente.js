@@ -1,14 +1,17 @@
 import React from 'react';
+import './ProdutoRecente.css'
 
 function ProdutoRecente(props) {
     return (
-        <>
+        <div className="ProdutoRecente">
             <img src={props.imagem} alt={props.nome} />
-            <p>{props.categoria} - {props.nome}</p>
-            <p>{props.descricao}</p>
-            <p>Publicado por: {props.usuario}</p>
-            <p>Estrelas: {props.avaliacao}</p>
-        </>
+            <div className="title">
+                <strong className="categoria">{props.categoria}  <span>{props.nome}</span></strong>
+                <p className="descricao">{props.descricao}</p>
+                <strong className="publicado">Publicado por: <span>{props.usuario}</span></strong>
+                <p className="avaliacao">Estrelas: {props.avaliacao}</p>
+            </div>
+        </div>
     );
 }
 

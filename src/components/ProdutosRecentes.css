@@ -1,0 +1,20 @@
+.ProdutosRecentes {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+}
+
+.ProdutosRecentes .produtos {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.ProdutosRecentes .produtos h1 {
+    color: #555;
+}
+
+.ProdutosRecentes .produtos span {
+    margin-left: 20px;
+    color: #3C649C;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import robo from '../imgs/mr-roboto2.svg';
 import './PageNotFound.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function PageNotFound(props){
     return (
@@ -15,7 +16,7 @@ function PageNotFound(props){
                 <h2>Ohh no!!!</h2>
                 <span>Parece que a página que você estava procurando não foi encontrada.</span>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 } export default PageNotFound;

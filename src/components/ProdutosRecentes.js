@@ -1,10 +1,14 @@
 import React from 'react';
 import ProdutoRecente from './ProdutoRecente';
+import './ProdutosRecentes.css';
 
 function ProdutosRecentes() {
     return (
-        <section className="ProdutosRecentes container">
-            <h1>Adicionados Recentemente</h1>
+        <section className="ProdutosRecentes">
+           <div className="produtos">
+                <h1>Adicionados Recentemente</h1>
+                <span>Ver todos</span>
+            </div>
             <ProdutoRecente
                 categoria="Alimentação"
                 nome="Doces Gourmet"
@@ -30,7 +34,7 @@ function ProdutosRecentes() {
                 imagem=""
             />
         </section>
-    );
-}
-
-export default ProdutosRecentes;
+        );
+    }
+    
+    export default ProdutosRecentes;
