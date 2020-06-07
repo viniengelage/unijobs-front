@@ -2,16 +2,18 @@ import React from 'react';
 import Menu from './Menu';
 import './Header.css';
 import Logo from '../imgs/UniJobs.svg';
-import Layout from './Layout';
+import Layout from '../components/Layout'
 
 function Header({ style }) {
     return (
-        <Layout>
-            <div className="Header">
-                <img src={Logo} alt="logo UniAmerica" />
-                <Menu style={style} />
-            </div>
-        </Layout>
+        <div className="bg-menu">
+            <Layout>
+                <div className="Header">
+                    <img src={Logo} alt="logo UniAmerica" />
+                    <Menu style={style} />
+                </div>
+            </Layout>
+        </div>
     );
 }
 

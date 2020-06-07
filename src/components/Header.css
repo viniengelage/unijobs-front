@@ -2,5 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
+    background-color: #0E346A;
+}
+
+.bg-menu {
+    width: 100%;
+    background-color: #0E346A;
+}
+
+.Header img {
+    width: 220px;
 }
