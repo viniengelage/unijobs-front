@@ -1,3 +1,8 @@
-.LandingPage {
-    /*background-color: #0E346A;*/
+.img-slider {
+    background: #0D3A7B;
+}
+
+.img-slider .carousel {
+    background: #0D3A7B;
+    height: 400px;
 }
