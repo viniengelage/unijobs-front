@@ -6,8 +6,8 @@
     font-size: 16px;
 }
 
-ul {
-    display: flex;    
+.menu ul {
+    display: flex; 
 }
 
 li {

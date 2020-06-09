@@ -9,6 +9,10 @@ import SignUp from './pages/SignUp';
 import Users from './pages/Users';
 import Home from './pages/Home';
 
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

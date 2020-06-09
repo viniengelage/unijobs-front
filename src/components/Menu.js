@@ -4,7 +4,7 @@ import './Menu.css'
 function Menu() {
     return(
         <div className="Menu" >
-            <ul >
+            <ul>
                 <li>Categorias</li>
                 <li>Comece a vender</li>
             </ul>
