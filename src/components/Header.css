@@ -3,12 +3,13 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #0E346A;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bg-menu {
     width: 100%;
-    background-color: #0E346A;
+    background-color: #0C3A7B;;
 }
 
 .Header img {
