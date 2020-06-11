@@ -1,0 +1,119 @@
+.grid-product {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: minmax(100px, 60%) 1fr;
+  grid-template-rows: 30px;
+  grid-template-areas:
+		"img post" 
+		"img info"
+    "details user";
+  
+  width: 100%;
+  margin: 40px 0;
+}
+
+.img {
+  grid-area: img;
+  height: 430px;
+  padding-right: 10px;
+}
+
+.info{
+  grid-area: info;
+  padding: 0 25px;
+}
+
+.details {
+  grid-area: details;
+  padding: 20px 0;
+}
+
+.users-products {
+  grid-area: user;
+  margin-top: 15px;
+}
+
+/* dados publicação */
+
+#post{
+  grid-area: post;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+}
+
+#post b {
+  font-weight: bold;
+}
+
+.info p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #0E346A;
+  font-weight: 500;
+}
+
+.info h1 {
+  font-weight: 600;
+  color: #444;
+  font-size: 26px;
+  display: block;
+  margin: 0;
+}
+
+.info .flex {
+  align-items: center;
+  margin: 50px 0 ;
+}
+
+.flex .price {
+  margin: 0 auto;
+}
+
+.info h2, .info, h5 {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin: 0 !important;
+}
+
+.info h5 {
+  text-decoration-line: line-through;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.info h2 {
+  font-size: 30px;
+  color: #0c3a7b;
+  font-weight: 900;
+}
+
+@media(max-width: 991px){
+
+  #post{
+    text-align: center;
+  }
+
+  .grid-product {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  "post" 
+                          "img" 
+                          "info"
+                          "details" 
+                          "user";
+  }
+
+  .info, .details, .users-products {
+    margin: 30px 0;
+    padding: 15px 0;
+  }
+
+  .img {
+    margin: 15px 0;
+  }
+}
