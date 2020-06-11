@@ -1,0 +1,31 @@
+.nav-header {
+  background-color: #0E346A;
+}
+
+.nav-header .flex {
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.nav-header .container {
+  padding: 40px 0;
+}
+
+.nav-header li {
+  margin-right: 30px;
+}
+
+.nav-header li:last-of-type {
+  margin-right: 0px;
+}
+
+
+.nav-header a {
+  color: #fff;
+}
+
+.nav-header a:hover {
+  color: #65AD2F;
+  text-decoration: none;
+}
+
