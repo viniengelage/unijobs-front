@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import { TabView, TabPanel } from './TabView';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 import Layout from '../Layout';
 import ImagesOfProduct from './ImagesOfProduct.js';
 import CardProductUser from './CardProductUser';
-import Button from 'react-bootstrap/Button';
+
 
 import './ProductItem.css';
 
@@ -38,15 +40,15 @@ export default function ProductItem () {
     if(product.promotion) {
       return(
         <>
-          <h5>{product.price}</h5>
-          <h2>{product.promotion}</h2>
+          <h5>R$ {product.price}</h5>
+          <h2>R$ {product.promotion}</h2>
         </>
       );
     }
 
     else
       return (
-        <h2>{product.price}</h2>
+        <h2>R$ {product.price}</h2>
       );
   }
 
@@ -73,15 +75,24 @@ export default function ProductItem () {
           <p>{ productItem.product.state }</p>
           <h1>{ productItem.product.title }</h1>
 
-          <div className="flex">
-            <div className="rating">
-              Share
-            </div>
+          <div className="flex">            
             <div className="price">
               {showPrice()}
             </div>
+            <div className="rating">
+              Share
+            </div>
           </div>
-          <Button variant="success" >Enviar mensagem</Button>
+          <div className="buttons">
+            <button type="text" className="btn-product wpp">
+              <FontAwesomeIcon size="lg" className="wpp-ico" icon={ faWhatsapp }/>
+              Enviar Mensagem
+            </button>
+            <button type="text" className="btn-product email">
+              <i className="pi pi-envelope ico"></i>
+              Enviar Email
+            </button>
+          </div>
         </div>
         <div className="details">
           <TabView indexTab={ indexTab } onChangePanel={ changePanel }>

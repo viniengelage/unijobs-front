@@ -20,7 +20,7 @@
 
 .info{
   grid-area: info;
-  padding: 0 25px;
+  padding-left: 25px;
 }
 
 .details {
@@ -37,7 +37,7 @@
 
 #post{
   grid-area: post;
-  padding: 0 25px;
+  padding-left: 25px;
   font-size: 12px;
   font-weight: 300;
   display: block;
@@ -67,10 +67,11 @@
 .info .flex {
   align-items: center;
   margin: 50px 0 ;
+  justify-content: flex-start;
 }
 
-.flex .price {
-  margin: 0 auto;
+.info .price{
+  width: 50%;
 }
 
 .info h2, .info, h5 {
@@ -82,15 +83,84 @@
 .info h5 {
   text-decoration-line: line-through;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1em;
   color: #5a5a5a;
 }
 
 .info h2 {
-  font-size: 30px;
+  font-size: 2em;
   color: #0c3a7b;
   font-weight: 900;
 }
+
+
+/* Buttons Send Message & Send E-mail */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons .btn-product{
+  border: none;
+  color: #fff;
+
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 10px;
+  width: calc(50% - 10px);
+}
+
+.buttons .wpp{
+  background: #449408;
+
+  display: flex;
+  align-items: center;
+  transition: background 400ms ease;
+}
+
+.buttons .wpp:hover{
+  background: #51AB0E;
+}
+
+.buttons .email {
+  background: #11468D;
+  display: flex;
+  align-items: center;
+  transition: background 400ms ease;
+}
+
+.buttons .email:hover{
+  background: #1253a8;
+}
+
+
+/* Correção icons */
+.buttons .ico, .wpp-ico path {
+  margin-right: 12px;
+  color: #fff;
+}
+
+.wpp-ico {
+  margin-right: 12px;
+  font-size: 1.5em;
+}
+
+
+@media (max-width: 1200px) {
+
+  .buttons .wpp, .buttons .email {
+    width: 100%;
+    /* margin-right: 0; */
+    margin-bottom: 10px;
+
+  }
+}
+
 
 @media(max-width: 991px){
 
@@ -115,5 +185,20 @@
 
   .img {
     margin: 15px 0;
+  }
+
+  .buttons .wpp, .buttons .email {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 467px) {
+
+  .buttons .wpp, .buttons .email {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+
   }
 }
