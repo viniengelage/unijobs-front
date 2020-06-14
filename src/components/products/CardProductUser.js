@@ -10,7 +10,7 @@ const CardProductUser = ({ title, products }) => {
         <div className="imagem-bg"></div>
         <div className="info-product-user">
           <h4>{ product.title }</h4>
-          <span>{ product.price }</span>
+          <span>R$ { product.price }</span>
         </div>
       </div>
     )
