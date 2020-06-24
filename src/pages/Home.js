@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Header from '../components/Header'
+import Categorias from '../components/Categorias';
 
 function Home(props) {
   return (
     <>
-      <div className="retangulo" ></div>
       <Header />
+      <Categorias />
     </>
   )
 }

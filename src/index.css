@@ -66,13 +66,3 @@ a:hover{
   padding: 20px 60px;
   margin: 0 auto;
 }
-
-.retangulo {
-  z-index: -1;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  position: absolute;
-  border-color: #0E346A transparent transparent #0E346A;
-  border-width: 100vh 0px 80px 100vw;
-}
