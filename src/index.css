@@ -28,12 +28,9 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 240px; /* altura do footer */
  }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
