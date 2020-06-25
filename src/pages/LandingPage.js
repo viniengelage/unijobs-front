@@ -9,6 +9,10 @@ import Layout from '../components/Layout';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const categories = [
+    'Beleza', 'Gastronomia', 'Saúde', 'Livros', 'Games'
+]
+
 function LandingPage(props) {
     return (
         <>
@@ -31,7 +35,7 @@ function LandingPage(props) {
             </section>
             
             <ProdutosRecentes />
-            <Categorias />
+            <Categorias categories={categories} />
             {/* <ProdutosDestaque />*/}
             <Footer /> 
         </>

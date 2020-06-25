@@ -28,12 +28,9 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 240px; /* altura do footer */
  }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -62,17 +59,7 @@ a:hover{
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1244px !important;
   padding: 20px 60px;
   margin: 0 auto;
-}
-
-.retangulo {
-  z-index: -1;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  position: absolute;
-  border-color: #0E346A transparent transparent #0E346A;
-  border-width: 100vh 0px 80px 100vw;
 }

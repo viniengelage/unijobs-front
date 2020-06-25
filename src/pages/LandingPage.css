@@ -1,8 +1,9 @@
 .img-slider {
-    background: #0D3A7B;
+    background: #0E346A;
 }
 
 .img-slider .carousel {
-    background: #0D3A7B;
-    height: 400px;
+    background: #8c8c8c;
+    height: 412px;
+    margin: 52px 0;
 }

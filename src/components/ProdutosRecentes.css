@@ -5,14 +5,31 @@
 .ProdutosRecentes .produtos {
     margin-bottom: 10px;
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
 .ProdutosRecentes .produtos h1 {
+    font-size: 1.4em;
+    font-weight: bold;
     color: #555;
 }
 
 .ProdutosRecentes .produtos span {
     margin-left: 20px;
     color: #3C649C;
+}
+
+#grid-pr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+@media(max-width: 991px) {
+    #grid-pr{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

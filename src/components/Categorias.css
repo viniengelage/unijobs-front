@@ -1,18 +1,42 @@
 .Categorias {
-    background: #fff;
+    background: #fbfbfb;
     height: 400px;
 }
 
 .Categorias .categorias-title {
     display: flex;
     align-items: baseline;
+    margin-bottom: 12px;
 }
 
 .Categorias .categorias-title h1 {
+    font-size: 1.4em;
+    font-weight: bold;
     color: #555;
 }
 
 .Categorias .categorias-title span {
     margin-left: 20px;
     color: #3C649C;
+}
+
+.Categorias .card-category {
+    /* Alinhamento conteúdo interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* propriedades da div */
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Categorias .card-category:hover {
+   text-decoration: none;
+   background: #f9f9f9;
 }
