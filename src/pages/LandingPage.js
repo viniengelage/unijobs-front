@@ -6,6 +6,10 @@ import ProdutosRecentes from '../components/ProdutosRecentes';
 import Categorias from '../components/Categorias';
 import Layout from '../components/Layout';
 
+// import computerImg from '../assets/computer.png';
+// import foodImg from '../assets/comida.jpg';
+// import foneImg from '../assets/fone.jpg';
+
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +22,7 @@ function LandingPage(props) {
                 <Layout>
                     <Carousel className="carousel">
                         <Carousel.Item>
-                            <img src="" alt="" />
+                            <img src="" alt=""/>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img src="" alt="" />

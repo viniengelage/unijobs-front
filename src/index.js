@@ -8,6 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 import SignUp from './pages/SignUp';
 import Users from './pages/Users';
 import Home from './pages/Home';
+import ProductRegister from './pages/ProductRegister';
 
 import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/product" component={Product} />
       <Route path="/signup" component={SignUp} />
       <Route path="/users" component={Users} />
+      <Route path="/productregister" component={ProductRegister}/>
 
       <Route path="*" component={PageNotFound} />
     </Switch>
